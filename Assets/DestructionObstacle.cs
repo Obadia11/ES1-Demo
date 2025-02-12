@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class DestructionObstacle : MonoBehaviour
 {
     
@@ -12,12 +13,6 @@ public class DestructionObstacle : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collider collision){
-if(collision.gameObject.name=="Bille"){
-gameObject.SetActive(false);
-}
-else{
-Debug.Log("Nothing happened");
-}
-}
+    
+    
 }
